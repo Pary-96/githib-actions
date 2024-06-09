@@ -5,7 +5,7 @@
     "rules": [
         {
             "name": "Rule 1",
-            "condition": "condition 1",
+            "condition": "condition 1"
             "action": "action 1"
         },
         {
