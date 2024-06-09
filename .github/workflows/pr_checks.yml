@@ -17,4 +17,4 @@ jobs:
           python-version: "3.x"
 
       - name: Test Json
-        run: python scripts/test_json.py
+        run: python scripts/json_validation.py
