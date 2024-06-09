@@ -31,7 +31,7 @@ def validate_all_json_files(directory):
 
 
 if __name__ == "__main__":
-    json_directory = "JsonRules"
+    json_directory = "Rules"
     print(f"Initiating JSON validation in directory: {json_directory}")
     if not validate_all_json_files(json_directory):
         print("JSON validation failed.")
