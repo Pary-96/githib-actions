@@ -1,0 +1,22 @@
+{
+    "name": "GitHub Actions Rules",
+    "version": "1.0.0",
+    "description": "Sample JSON file for GitHub Actions rules",
+    "rules": [
+        {
+            "name": "Rule 1",
+            "condition": "condition 1",
+            "action": "action 1"
+        },
+        {
+            "name": "Rule 2",
+            "condition": "condition 2",
+            "action": "action 2"
+        },
+        {
+            "name": "Rule 3",
+            "condition": "condition 3",
+            "action": "action 3"
+        }
+    ]
+}
