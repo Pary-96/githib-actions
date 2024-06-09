@@ -1,3 +1,6 @@
+import sys
+
+
 def return_true():
     try:
         raise Exception("This is an exception")
@@ -7,4 +10,7 @@ def return_true():
 
 
 result = return_true()
-print(result)
+if not result:
+    sys.exit(1)  # Exit with status code 1 if result is False
+else:
+    sys.exit(0)  # Exit with status code 0 if result is True
